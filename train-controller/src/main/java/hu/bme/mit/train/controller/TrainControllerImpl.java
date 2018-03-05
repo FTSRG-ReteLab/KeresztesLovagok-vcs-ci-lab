@@ -13,7 +13,7 @@ public class TrainControllerImpl implements TrainController {
 	private Timer timer;
 	class TaskFollowReference extends TimerTask{
 		public void run(){
-			followspeed();
+			followSpeed();
 		}
 
 	}
