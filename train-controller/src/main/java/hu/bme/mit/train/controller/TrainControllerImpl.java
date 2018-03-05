@@ -19,7 +19,7 @@ public class TrainControllerImpl implements TrainController {
 	}
 	public  TrainControllerImpl(){
 		timer=new Timer();
-		timer.schedule(new FollowSpeedTask(),1000);
+		timer.schedule(new TaskFollowReference(),1000);
 	}
 
 	@Override

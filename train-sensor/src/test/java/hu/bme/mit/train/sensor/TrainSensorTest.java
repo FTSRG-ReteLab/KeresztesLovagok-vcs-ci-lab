@@ -30,7 +30,7 @@ public class TrainSensorTest {
     public void ThisIsANewTest() {
         // TODO Delete this and add test cases based on the issues
     	int result = value1 + value2;
-        assertTrue(result == 6);
+        assertTrue(result == 5);
     }
 
 }
