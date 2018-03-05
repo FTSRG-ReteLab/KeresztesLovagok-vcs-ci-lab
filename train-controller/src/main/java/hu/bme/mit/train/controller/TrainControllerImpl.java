@@ -17,7 +17,7 @@ public class TrainControllerImpl implements TrainController {
 		}
 
 	}
-	public  TrainTiming(){
+	public  TrainControllerImpl(){
 		timer=new Timer();
 		timer.schedule(new FollowSpeedTask(),1000);
 	}
